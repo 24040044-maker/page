@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<head>
+    <meta charset="UTF-8">
+    <title>Prueba de creacion de pagina</title>
+</head>
+<body style="background-color:rgba(172, 168, 168, 0.971);">
+    <h1>Mi Página HTML</h1>
+    
+    <!-- Imagen -->
+    <img src="C:\Users\ed\OneDrive\Documentos\pagi\image\imagen ejemplo1.webp" alt="Imagen de ejemplo1">
+    <br>
+
+    <!-- Lista con viñetas -->
+    <h2>Informacion del maestro:</h2>
+    <ul>
+        <li>Nombre:Edgar Reyes de la Cruz</li>
+        <li>Maestro:David Lopez Belmares</li>
+        <li>Materia:Desarrollo de paginas Web</li>
+        <li>Grado:4°-A</li>
+    </ul>
+        <!-- Cuadros de texto -->
+    <h2>Sobre Mí</h2>
+    <div class="cuadro-texto">
+        Mi nombre es Edgar Reyes de la Cruz.
+    </div>
+    <div class="cuadro-texto">
+        Me gusta la lectura y jugar videojuegos.
+    </div>
+    <div class="cuadro-texto">
+        estudio en la UTC.
+    </div>
+
+
+    <!-- Tabla -->
+    <h2>Amigos</h2>
+    <table style="background-color:rgb(255, 255, 255);">
+        <tr>
+            <th>Nombre</th>
+            <th>Edad</th>
+            <th>como les va a ir en la materia de calculo</th>
+        </tr>
+        <tr>
+            <td>kenia</td>
+            <td>19</td>
+            <td>bien</td>
+        </tr>
+        <tr>
+            <td>ramiro</td>
+            <td>23</td>
+            <td>mejor ya paga el extra</td>
+        </tr>
+        <tr>
+            <td>Luis</td>
+            <td>19</td>
+            <td>segundas minimo</td>
+        </tr>
+    </table>
+    <br>
+    <hr>
+    <!-- EnlacesS -->
+    <h3>Enlaces Útiles</h3>
+        <button style="background-color: #052feb; color: white;" onclick="window.open('https://www.w3schools.com/html/html_basic.asp', '_blank')">Visitar el enlace de para saber mas de html</button>
+        <br>
+        <button style="background-color: #052feb; color: white;" onclick="window.open('https://www.youtube.com/watch?v=w8TtZbuO_nY&list=RDw8TtZbuO_nY&start_radio=1', '_blank')">musica utilisada para crear el codigo</button>
+    <hr>
+    <hr>
+
+    <!-- Formulario -->
+    <h2>Contacto</h2>
+    <form action="#" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+        <br>
+        <br>
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required>
+        <br>
+        <br>
+        <label for="comentario">Comentario:</label>
+        <textarea id="comentario" name="comentario" placeholder="Escribe tu comentario" required></textarea>
+        <br>
+        <br>
+        <button type="submit" class="btn-enviar">Enviar</button>
+    </form>
+
+    <hr>
+</body>
+</html>
